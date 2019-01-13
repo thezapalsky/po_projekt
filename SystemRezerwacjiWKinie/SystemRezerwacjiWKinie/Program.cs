@@ -19,6 +19,9 @@ namespace SystemRezerwacjiWKinie
             Film f1 = new Film("Bumblebee", new TimeSpan(0, 114,0), "film o transormersach bla bla...");
             Console.WriteLine(f1);
 
+            Sala s1 = new Sala(12,10);
+            Console.WriteLine(s1);
+
             Console.ReadKey();
         }
     }
