@@ -7,24 +7,23 @@ using System.Threading.Tasks;
 namespace SystemRezerwacjiWKinie
 {
     
-    public enum zawod
+    public enum znizka
     {
-        uczen,
-        student,
-        dorosly
+        normalny,
+        ulogwy
     }//potrzebne do znizek
     public class Klient : Osoba
     {
         
-        public zawod zawod;
-        public Klient(string imie, string nazwisko, string email, long NrTel, Plcie plec,zawod zawod) : base(imie, nazwisko, email, NrTel, plec)
+        public znizka znizka;
+        public Klient(string imie, string nazwisko, string email, long NrTel, Plcie plec,znizka znizka) : base(imie, nazwisko, email, NrTel, plec)
         {
             
-            this.zawod = zawod;
+            this.znizka = znizka;
         }
         public override string ToString()
         {
-            return base.ToString() + " metoda platnosci: ".ToString(); 
+            return base.ToString() + " Rodzaj biletu: "+znizka; 
         }
     }
 }

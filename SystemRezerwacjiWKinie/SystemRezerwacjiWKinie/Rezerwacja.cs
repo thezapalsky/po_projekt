@@ -6,20 +6,16 @@ using System.Threading.Tasks;
 
 namespace SystemRezerwacjiWKinie
 {
-    public enum Filmy
-    {
-        BohemianRhapsody,
-        BirdBox,
-        Changeling  
-    }
-    class Rezerwacja:Platnosc
-    {
-        
-        private DateTime StartSeansu;
-        private Filmy film;
-        
-        
-        
+    //public enum Filmy
+    //{
+    //    BohemianRhapsody,
+    //    BirdBox,
+    //    Changeling  
+    //}
+    //public class Rezerwacja:Platnosc
+    //{       
+    //    private DateTime StartSeansu;
+    //    private Filmy film;
 
-    }
+    //}
 }

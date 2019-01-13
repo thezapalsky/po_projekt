@@ -25,6 +25,15 @@ namespace SystemRezerwacjiWKinie
         public string Email { get => email; set => email = value; }
         public long NrTel1 { get => NrTel; set => NrTel = value; }
         internal Plcie Plec { get => plec; set => plec = value; }
+
+        public Osoba()
+        {
+            this.imie = "";
+            this.nazwisko = "";
+            this.email = "";
+            this.NrTel = 0;
+        }
+
         public Osoba(string imie,string nazwisko, string email,long NrTel, Plcie plec)
         {
             this.imie = imie;

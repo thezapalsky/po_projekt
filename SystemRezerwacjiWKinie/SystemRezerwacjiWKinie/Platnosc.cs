@@ -28,11 +28,11 @@ namespace SystemRezerwacjiWKinie
             this.metoda = metoda;
             this.klient1 = klient1;
             this.data = data;
-            if (klient1.zawod==zawod.dorosly)
+            if (klient1.znizka==znizka.normalny)
             {
                 cena += 20;
             }
-            else if(klient1.zawod==zawod.student || klient1.zawod == zawod.student)
+            else if(klient1.znizka==znizka.ulogwy)
             {
                 cena += 15;
             }

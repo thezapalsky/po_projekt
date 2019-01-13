@@ -6,12 +6,20 @@ using System.Threading.Tasks;
 
 namespace SystemRezerwacjiWKinie
 {
+    
     class Pracownik : Osoba
     {
-        public int IdPracownika;
-        public Pracownik(string imie, string nazwisko, string email, long NrTel, Plcie plec, int IdPracownika) : base(imie, nazwisko, email, NrTel, plec)
+        private int IdPracownika;
+        static int id_pracownikow;
+
+        static Pracownik()
         {
-            this.IdPracownika = IdPracownika;
+            id_pracownikow = 0;
+        }
+        public Pracownik(string imie, string nazwisko, string email, long NrTel, Plcie plec) : base(imie, nazwisko, email, NrTel, plec)
+        {
+            id_pracownikow++;
+            this.IdPracownika = id_pracownikow;
         }
         public override string ToString()
         {
