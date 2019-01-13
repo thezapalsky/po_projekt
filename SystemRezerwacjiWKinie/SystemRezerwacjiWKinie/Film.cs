@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SystemRezerwacjiWKinie
 {
-    class Film
+    public class Film
     {
         string nazwa;
         TimeSpan czas_trwania;
@@ -14,14 +14,16 @@ namespace SystemRezerwacjiWKinie
 
         public Film(string nazwa, TimeSpan czas_trwania, string opis)
         {
-            this.nazwa = nazwa;
+            this.Nazwa = nazwa;
             this.czas_trwania =czas_trwania;
             this.opis = opis;
         }
 
+        public string Nazwa { get => nazwa; set => nazwa = value; }
+
         public override string ToString()
         {
-            return "Nazwa: "+this.nazwa + " Opis: " + this.opis + " Czas trwania: " + this.czas_trwania.ToString();
+            return "Nazwa: "+this.Nazwa + " Opis: " + this.opis + " Czas trwania: " + this.czas_trwania.ToString();
         }
     }
     

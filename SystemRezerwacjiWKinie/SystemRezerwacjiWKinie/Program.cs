@@ -19,8 +19,11 @@ namespace SystemRezerwacjiWKinie
             Film f1 = new Film("Bumblebee", new TimeSpan(0, 114,0), "film o transormersach bla bla...");
             Console.WriteLine(f1);
 
-            Sala s1 = new Sala(12,10);
+            Sala s1 = new Sala(12,10); //rzedy x miejsca w rzedzie
             Console.WriteLine(s1);
+
+            Seans sea1 = new Seans(f1, s1, new DateTime(2020, 01, 11, 19, 0, 0));
+            Console.WriteLine(sea1);
 
             Console.ReadKey();
         }
