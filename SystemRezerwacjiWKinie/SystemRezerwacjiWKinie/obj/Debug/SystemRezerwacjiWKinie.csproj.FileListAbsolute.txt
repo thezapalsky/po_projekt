@@ -1,0 +1,7 @@
+D:\STUDIA\ProjektPO\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.exe.config
+D:\STUDIA\ProjektPO\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.exe
+D:\STUDIA\ProjektPO\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.pdb
+D:\STUDIA\ProjektPO\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\obj\Debug\SystemRezerwacjiWKinie.csprojAssemblyReference.cache
+D:\STUDIA\ProjektPO\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\obj\Debug\SystemRezerwacjiWKinie.csproj.CoreCompileInputs.cache
+D:\STUDIA\ProjektPO\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\obj\Debug\SystemRezerwacjiWKinie.exe
+D:\STUDIA\ProjektPO\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\obj\Debug\SystemRezerwacjiWKinie.pdb
