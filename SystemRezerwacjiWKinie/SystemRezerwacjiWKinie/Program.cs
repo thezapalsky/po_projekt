@@ -15,6 +15,10 @@ namespace SystemRezerwacjiWKinie
 
             Klient k1 = new Klient("Mariusz", "Pudzianowski", "mpudzian@pu.dzian", 111222333, Plcie.Mezczyzna, znizka.ulogwy);
             Console.WriteLine(k1);
+
+            Film f1 = new Film("Bumblebee", new TimeSpan(0, 114,0), "film o transormersach bla bla...");
+            Console.WriteLine(f1);
+
             Console.ReadKey();
         }
     }

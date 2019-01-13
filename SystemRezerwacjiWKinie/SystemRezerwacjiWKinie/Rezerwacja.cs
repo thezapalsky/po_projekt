@@ -12,10 +12,10 @@ namespace SystemRezerwacjiWKinie
     //    BirdBox,
     //    Changeling  
     //}
-    //public class Rezerwacja:Platnosc
-    //{       
-    //    private DateTime StartSeansu;
-    //    private Filmy film;
+    public class Rezerwacja
+    {
+        //private DateTime StartSeansu;
+        //private Filmy film;
 
-    //}
+    }
 }
