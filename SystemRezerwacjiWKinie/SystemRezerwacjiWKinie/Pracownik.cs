@@ -16,7 +16,7 @@ namespace SystemRezerwacjiWKinie
         {
             id_pracownikow = 0;
         }
-        public Pracownik(string imie, string nazwisko, string email, long NrTel, Plcie plec) : base(imie, nazwisko, email, NrTel, plec)
+        public Pracownik(string imie, string nazwisko, string email, string NrTel, Plcie plec) : base(imie, nazwisko, email, NrTel, plec)
         {
             id_pracownikow++;
             this.IdPracownika = id_pracownikow;

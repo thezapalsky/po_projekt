@@ -17,13 +17,13 @@ namespace SystemRezerwacjiWKinie
         public string imie;
         public string nazwisko;
         public string email;
-        public long NrTel;
+        public string NrTel;
         public Plcie plec;
 
         public string Imie { get => imie; set => imie = value; }
         public string Nazwisko { get => nazwisko; set => nazwisko = value; }
         public string Email { get => email; set => email = value; }
-        public long NrTel1 { get => NrTel; set => NrTel = value; }
+        public string NrTel1 { get => NrTel; set => NrTel = value; }
         internal Plcie Plec { get => plec; set => plec = value; }
 
         public Osoba()
@@ -31,10 +31,10 @@ namespace SystemRezerwacjiWKinie
             this.imie = "";
             this.nazwisko = "";
             this.email = "";
-            this.NrTel = 0;
+            this.NrTel = "";
         }
 
-        public Osoba(string imie,string nazwisko, string email,long NrTel, Plcie plec)
+        public Osoba(string imie,string nazwisko, string email,string NrTel, Plcie plec)
         {
             this.imie = imie;
             this.nazwisko = nazwisko;
