@@ -12,3 +12,10 @@ D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\obj\Debug\Sys
 D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.exe.config
 D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.exe
 D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.pdb
+C:\Users\User\Desktop\po_projekt-master\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\obj\Debug\SystemRezerwacjiWKinie.csprojAssemblyReference.cache
+C:\Users\User\Desktop\po_projekt-master\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\obj\Debug\SystemRezerwacjiWKinie.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\po_projekt-master\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\obj\Debug\SystemRezerwacjiWKinie.exe
+C:\Users\User\Desktop\po_projekt-master\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\obj\Debug\SystemRezerwacjiWKinie.pdb
+C:\Users\User\Desktop\po_projekt-master\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.exe.config
+C:\Users\User\Desktop\po_projekt-master\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.exe
+C:\Users\User\Desktop\po_projekt-master\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.pdb

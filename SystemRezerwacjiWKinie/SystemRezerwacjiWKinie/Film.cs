@@ -12,6 +12,13 @@ namespace SystemRezerwacjiWKinie
         TimeSpan czas_trwania;
         string opis;
 
+
+        public Film()
+        {
+            this.nazwa = "";
+            this.czas_trwania = new TimeSpan();
+            this.opis = "";
+        }
         public Film(string nazwa, TimeSpan czas_trwania, string opis)
         {
             this.Nazwa = nazwa;

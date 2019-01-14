@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SystemRezerwacjiWKinie
 {
-    class Sala
+    public class Sala
     {
         int numer_sali;
         static int ilosc_sal;
@@ -15,8 +15,16 @@ namespace SystemRezerwacjiWKinie
         int m;
         int[,] miejsca;
 
+
         public int Numer_sali { get => numer_sali; set => numer_sali = value; }
 
+        public Sala()
+        {
+            numer_sali = 0;
+            r = 0;
+            m = 0;
+            miejsca = new int[0, 0];
+        }
         public Sala(int r,int m)//rzedy i miejsca
         {
             ilosc_sal++;
