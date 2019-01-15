@@ -1,0 +1,14 @@
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\bin\Debug\UI.exe.config
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\bin\Debug\UI.exe
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\bin\Debug\UI.pdb
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\bin\Debug\SystemRezerwacjiWKinie.exe
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\bin\Debug\SystemRezerwacjiWKinie.pdb
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\bin\Debug\SystemRezerwacjiWKinie.exe.config
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\obj\Debug\UI.csprojAssemblyReference.cache
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\obj\Debug\UI.Form1.resources
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\obj\Debug\UI.Properties.Resources.resources
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\obj\Debug\UI.csproj.GenerateResource.cache
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\obj\Debug\UI.csproj.CopyComplete
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\obj\Debug\UI.exe
+D:\studia\PO\PROJEKT\SystemRezerwacjiWKinie\UI\obj\Debug\UI.pdb

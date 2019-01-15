@@ -9,14 +9,14 @@ namespace SystemRezerwacjiWKinie
     
         
         public class Platnosc
-    {
-        Rezerwacja rez;
-        
-        public Platnosc(Rezerwacja rez, MetodaPlatnosci metoda)
         {
-            this.rez = rez;
+            Rezerwacja rez;
+        
+            //public Platnosc(Rezerwacja rez, MetodaPlatnosci metoda)
+            //{
+            //    this.rez = rez;
+            //}
         }
-    }
     
        
 

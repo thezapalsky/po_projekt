@@ -33,7 +33,13 @@ namespace SystemRezerwacjiWKinie
             this.email = "";
             this.NrTel = "";
         }
-
+        public Osoba(string imie, string nazwisko, string email, string NrTel)
+        {
+            this.imie = imie;
+            this.nazwisko = nazwisko;
+            this.email = email;
+            this.NrTel = NrTel;
+        }
         public Osoba(string imie,string nazwisko, string email,string NrTel, Plcie plec)
         {
             this.imie = imie;
@@ -44,7 +50,7 @@ namespace SystemRezerwacjiWKinie
         }
         public override string ToString()
         {
-            return this.imie+" "+this.nazwisko+" "+this.email+" "+this.NrTel+" "+this.plec.ToString();
+            return this.imie + " " + this.nazwisko + " " + this.email + " " + this.NrTel; 
         }
     }
 }

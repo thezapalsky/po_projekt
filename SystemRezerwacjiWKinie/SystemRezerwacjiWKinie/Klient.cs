@@ -6,13 +6,6 @@ using System.Threading.Tasks;
 
 namespace SystemRezerwacjiWKinie
 {
-
-    public enum MetodaPlatnosci
-    {
-        Przelew,
-        Karta,
-        Gotowka
-    }
     //public enum znizka
     //{
     //    normalny,
@@ -21,23 +14,19 @@ namespace SystemRezerwacjiWKinie
     public class Klient : Osoba
     {
         
-        //public znizka znizka;
-        public MetodaPlatnosci metoda;
+        //public znizka znizka
         public Klient():base()
         {
             
-            this.metoda = (MetodaPlatnosci)0;
             
         }
-        public Klient(string imie, string nazwisko, string email, string NrTel, Plcie plec,MetodaPlatnosci metoda) : base(imie, nazwisko, email, NrTel, plec)
+        public Klient(string imie, string nazwisko, string email, string NrTel) : base(imie, nazwisko, email, NrTel)
         {
-            
-            
-            this.metoda = metoda;
+
         }
         public override string ToString()
         {
-            return base.ToString() + "Metoda platnosci: "+metoda.ToString(); 
+            return base.ToString(); 
         }
     }
 }

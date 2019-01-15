@@ -17,13 +17,14 @@ namespace SystemRezerwacjiWKinie
 
 
         public int Numer_sali { get => numer_sali; set => numer_sali = value; }
+        public int[,] Miejsca { get => miejsca; set => miejsca = value; }
 
         public Sala()
         {
             numer_sali = 0;
             r = 0;
             m = 0;
-            miejsca = new int[0, 0];
+            Miejsca = new int[0, 0];
         }
         public Sala(int r,int m)//rzedy i miejsca
         {
@@ -32,12 +33,12 @@ namespace SystemRezerwacjiWKinie
             this.m = m;
             Numer_sali = ilosc_sal;
             //miejsca = new int[][] { new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
-            miejsca = new int[r,m];
+            Miejsca = new int[r,m];
             for (int i = 0; i < r; i++)
             {
                 for (int j = 0; j < m; j++)
                 {
-                    miejsca[i, j] = 0;
+                    Miejsca[i, j] = 0;
                 }
             }
         }
@@ -49,11 +50,11 @@ namespace SystemRezerwacjiWKinie
             {
                 for (int j = 0; j < m; j++)
                 {
-                    s+= miejsca[i, j].ToString()+" ";
+                    s+= Miejsca[i, j].ToString()+" ";
                 }
                 s += "\n";
             }
-            return "Numer Sali: " + Numer_sali.ToString() + " Miejsca (0-wolne;1-zajęte): \n"+s;
+            return "Numer Sali: " + Numer_sali.ToString() + "\nMiejsca (0-wolne;1-zajęte): \n"+s;
         }
     }
 }

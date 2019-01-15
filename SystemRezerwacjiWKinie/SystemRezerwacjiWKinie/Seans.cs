@@ -33,7 +33,7 @@ namespace SystemRezerwacjiWKinie
 
         public override string ToString()
         {
-            return "Seans o numerze: " + idSeansu + "\nFilm: " + film.Nazwa+"\nSala: " + sala.Numer_sali.ToString() + "\nData rozpoczecia: " + data_rozpoczecia.ToString();
+            return film.Nazwa+" Sala " + sala.Numer_sali.ToString() + " Data: " + data_rozpoczecia.ToString();
         }
 
 
