@@ -19,3 +19,9 @@ C:\Users\User\Desktop\po_projekt-master\SystemRezerwacjiWKinie\SystemRezerwacjiW
 C:\Users\User\Desktop\po_projekt-master\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.exe.config
 C:\Users\User\Desktop\po_projekt-master\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.exe
 C:\Users\User\Desktop\po_projekt-master\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.pdb
+C:\Users\Filipsinger\Desktop\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.exe.config
+C:\Users\Filipsinger\Desktop\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\obj\Debug\SystemRezerwacjiWKinie.exe
+C:\Users\Filipsinger\Desktop\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\obj\Debug\SystemRezerwacjiWKinie.pdb
+C:\Users\Filipsinger\Desktop\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\obj\Debug\SystemRezerwacjiWKinie.csprojResolveAssemblyReference.cache
+C:\Users\Filipsinger\Desktop\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.exe
+C:\Users\Filipsinger\Desktop\SystemRezerwacjiWKinie\SystemRezerwacjiWKinie\bin\Debug\SystemRezerwacjiWKinie.pdb

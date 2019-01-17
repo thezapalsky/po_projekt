@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Media;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace SystemRezerwacjiWKinie
@@ -10,13 +12,31 @@ namespace SystemRezerwacjiWKinie
     {
         static void Main(string[] args)
         {
+            
+            List<Film> listaFilmow = new List<Film>();
 
 
-            //Film f1 = new Film("Bumblebee", new TimeSpan(0, 114, 0), "film o transformersach...");
-            //Film f2 = new Film("Harry Potter", new TimeSpan(0, 140, 0), "film o harrym potterze...");
-            //Film f3 = new Film("Kill Bill", new TimeSpan(0, 140, 0), "film quentina tarantnio...");
-            //Film f4 = new Film("Auta 2", new TimeSpan(0, 140, 0), "film o gadajacych autach...");
-            ////Console.WriteLine(f1);
+           // Film f1 = new Film("Bumblebee", new TimeSpan(0, 114, 0), "film o transformersach...");
+           // Film f2 = new Film("Harry Potter", new TimeSpan(0, 140, 0), "film o harrym potterze...");
+           // Film f3 = new Film("Kill Bill", new TimeSpan(0, 140, 0), "film quentina tarantnio...");
+           // Film f4 = new Film("Auta 2", new TimeSpan(0, 140, 0), "film o gadajacych autach...");
+
+            listaFilmow.Add(new Film("Bumblebee", new TimeSpan(0, 114, 0), "film o transformersach..."));
+            listaFilmow.Add(new Film("Harry Potter", new TimeSpan(0, 140, 0), "film o harrym potterze..."));
+            listaFilmow.Add(new Film("Kill Bill", new TimeSpan(0, 140, 0), "film quentina tarantnio..."));
+            listaFilmow.Add(new Film("Auta 2", new TimeSpan(0, 140, 0), "film o gadajacych autach..."));
+
+
+            StreamWriter mySW = XMLManager.CreateStreamWriter("filmy.xml");
+
+            XMLManager.ZapiszXML(mySW, listaFilmow);
+            mySW.Close();
+
+            XMLManager.OdczytajXML("filmy.xml");
+
+            mySW.Close();
+
+            Console.ReadKey();
 
             //Sala s1 = new Sala(12, 10);
             //Sala s2 = new Sala(4, 6);
