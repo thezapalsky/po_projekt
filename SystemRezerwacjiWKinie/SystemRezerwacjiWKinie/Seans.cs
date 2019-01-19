@@ -33,7 +33,7 @@ namespace SystemRezerwacjiWKinie
 
         public override string ToString()
         {
-            return film.Nazwa+" Sala " + sala.Numer_sali.ToString() + " Data: " + data_rozpoczecia.ToString();
+            return film.nazwa+" Sala " + sala.Numer_sali.ToString() + " Data: " + data_rozpoczecia.ToString();
         }
 
 

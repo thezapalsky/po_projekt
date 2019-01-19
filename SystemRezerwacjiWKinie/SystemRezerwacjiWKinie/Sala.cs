@@ -15,23 +15,62 @@ namespace SystemRezerwacjiWKinie
         int m;
         int[,] miejsca;
 
+        public int Numer_sali
+        {
+            get
+            {
+                return numer_sali;
+            }
 
-        public int Numer_sali { get => numer_sali; set => numer_sali = value; }
-        public int[,] Miejsca { get => miejsca; set => miejsca = value; }
+            set
+            {
+                numer_sali = value;
+            }
+        }
+
+        public int[,] Miejsca
+        {
+            get
+            {
+                return miejsca;
+            }
+
+            set
+            {
+                miejsca = value;
+            }
+        }
+
+        public static int Ilosc_sal
+        {
+            get
+            {
+                return ilosc_sal;
+            }
+
+            set
+            {
+                ilosc_sal = value;
+            }
+        }
+
+
+        /* public int Numer_sali { get => numer_sali; set => numer_sali = value; }
+         public int[,] Miejsca { get => miejsca; set => miejsca = value; } */
 
         public Sala()
         {
-            numer_sali = 0;
+            Numer_sali = 0;
             r = 0;
             m = 0;
             Miejsca = new int[0, 0];
         }
         public Sala(int r,int m)//rzedy i miejsca
         {
-            ilosc_sal++;
+            Ilosc_sal++;
             this.r = r;
             this.m = m;
-            Numer_sali = ilosc_sal;
+            Numer_sali = Ilosc_sal;
             //miejsca = new int[][] { new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
             Miejsca = new int[r,m];
             for (int i = 0; i < r; i++)

@@ -53,6 +53,7 @@
     <Compile Include="Rezerwacja.cs" />
     <Compile Include="Sala.cs" />
     <Compile Include="Seans.cs" />
+    <Compile Include="XMLManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFilm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Film>
+    <nazwa>Bumblebee</nazwa>
+    <opis>film o transformersach...</opis>
+    <time>01:54:00</time>
+    <Nazwa>Bumblebee</Nazwa>
+  </Film>
+  <Film>
+    <nazwa>Harry Potter</nazwa>
+    <opis>film o harrym potterze...</opis>
+    <time>02:20:00</time>
+    <Nazwa>Harry Potter</Nazwa>
+  </Film>
+  <Film>
+    <nazwa>Kill Bill</nazwa>
+    <opis>film quentina tarantnio...</opis>
+    <time>02:20:00</time>
+    <Nazwa>Kill Bill</Nazwa>
+  </Film>
+  <Film>
+    <nazwa>Auta 2</nazwa>
+    <opis>film o gadajacych autach...</opis>
+    <time>02:20:00</time>
+    <Nazwa>Auta 2</Nazwa>
+  </Film>
+</ArrayOfFilm>

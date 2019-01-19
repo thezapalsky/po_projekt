@@ -20,13 +20,27 @@ namespace SystemRezerwacjiWKinie
         bool ulga;
         int rzad;
         int miejsce;
+
+        public bool Ulga
+        {
+            get
+            {
+                return ulga;
+            }
+
+            set
+            {
+                ulga = value;
+            }
+        }
+
         //static double cena = 0;
 
         public Rezerwacja()
         {
             this.klient1 = new Klient();
             this.seans1 = new Seans();
-            ulga = false;
+            Ulga = false;
             rzad = 0;
             miejsce = 0;
             //this.LiczbaMiejscNormalnych = 0;
@@ -40,7 +54,7 @@ namespace SystemRezerwacjiWKinie
             {
                 this.klient1 = klient1;
                 this.seans1 = seans1;
-                this.ulga = ulga;
+                this.Ulga = ulga;
                 this.rzad = rzad+1;
                 this.miejsce = miejsce+1;
                 //this.LiczbaMiejscUlgowych = LiczbaMiejscUlgowych;
@@ -54,7 +68,7 @@ namespace SystemRezerwacjiWKinie
             }
         }
 
-        public bool Ulga { get => ulga; set => ulga = value; }
+       // public bool Ulga { get => ulga; set => ulga = value; }
 
         //public void obliczCene(int LiczbaMiejscUlgowych,int LiczbamiejscNormalnych)
         //{
@@ -62,7 +76,7 @@ namespace SystemRezerwacjiWKinie
         //}
         public override string ToString()
         {
-            if(ulga)
+            if(Ulga)
             {
                 return klient1.ToString()+" ulgowy\nrząd: "+rzad+" miejsce: "+ miejsce+ "\n" + seans1.ToString();//+"\nDo zaplacenia: "+cena.ToString()+"zl";
 
