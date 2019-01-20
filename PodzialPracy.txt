@@ -1,0 +1,5 @@
+Podzia³ pracy:
+G³ówne klasy i szkielet programu - Jan Bobrowski, Maciej Œmia³owski, Pawe³ Sumara, Miko³aj Zapalski
+Diagram CRC podstawowych klas wystêpuj¹cych w systemie - Jan Bobrowski, Maciej Œmia³owski, Pawe³ Sumara
+GUI - Miko³aj Zapalski
+Serializacja XML oraz klasa Film - Filip Szostek
